@@ -1,0 +1,49 @@
+# Restaurant Invoice AI - MVP .gitignore
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Python (FastAPI Backend)
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Node.js (Next.js Frontend)
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# File Uploads & Processing
+uploads/
+temp_files/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+SYSTEM_ARCHITECTURE.md
