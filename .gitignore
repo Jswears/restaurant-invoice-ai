@@ -47,3 +47,5 @@ Thumbs.db
 # Docker
 docker-compose.override.yml
 SYSTEM_ARCHITECTURE.md
+invoices_for_test
+structured_invoices
